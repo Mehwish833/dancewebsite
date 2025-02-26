@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Xanh+Mono:ital@0;1&display=swap');
+*{
+    font-family:  "Merriweather", serif;
+    
+
+}
+div.body{
+    background-color: rgb(241, 229, 229);
+    
+}
+div.classinfoheading h1{
+    
+   
+    padding-top: 30px ;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    
+}
+
+
+div.classinfoheading p{
+   
+    padding: 5px 10px;
+}
+section.classes {
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 800px;
+    background-color: #e4cccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Class list styles */
+.class-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.class-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.class-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.class-item h3 {
+    color: #4CAF50; /* Green color for class titles */
+}
+
+.class-item p {
+    margin: 5px 0;
+}

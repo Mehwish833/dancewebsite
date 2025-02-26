@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+      script(src='/static/script.js')
+
+block style 
+      style 
+            include ../static/style.css
+            include ../static/servicesstyle.css
+       
+block content
+           
+   section.services
+    h2 Our Dance Services
+    .services-container
+        .service
+            img(src='../static/belrom.jpg', alt='Ballroom Dancing')
+            h3 Ballroom Dancing
+            p Experience the elegance and grace of ballroom dancing with our expert instructors.
+        .service
+            img(src='../static/hiphop.jpeg', alt='Hip Hop Dancing')
+            h3 Hip Hop Dancing
+            p Get ready to groove with our energetic hip hop classes for all ages.
+        .service
+            img(src='../static/ballet.jpg', alt='Ballet Dancing')
+            h3 Ballet Dancing
+            p Discover the beauty of ballet with our structured classes for beginners to advanced.
+        .service
+            img(src='../static/salsa.jpg', alt='Salsa Dancing')
+            h3 Salsa Dancing
+            p Join us for fun and lively salsa classes that will get you moving and grooving.
+        .service
+            img(src='../static/contemporary.jpg', alt='Contemporary Dance')
+            h3 Contemporary Dance
+            p Explore your creativity through contemporary dance with our skilled instructors.
+        .service
+            img(src='../static/jazz-scaled.jpg', alt='Jazz Dance')
+            h3 Jazz Dance
+            p Learn the vibrant and expressive style of jazz dance in our engaging classes.

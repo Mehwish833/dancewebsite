@@ -1,0 +1,64 @@
+/* for contact  page*/
+div.body{
+    background-color: #f2d1d1;
+}
+div.h1{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style:oblique;
+    display: flex;
+    padding-top: 42px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+   
+    
+}
+.myform{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 1px 79px;
+padding: 25px 80px;
+height: 80%;
+}
+.input{
+    margin-top: 5px;
+    padding: 8px 7px;
+    width: 80%;
+    font-style: italic;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #f2d1d1;
+    font-size: medium;
+}
+.btn{
+    border: 2px solid brown;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #4e1111, 2px 2px 4px #0d0d6c;
+    margin-top: 10px;
+    padding: 5px 2px;
+    height: 20%;
+    width: 15%;
+    color: white;
+    font-size: large;
+
+    background-color: black;
+}
+.btn:hover{
+    background-color: rgb(101, 12, 12);
+    cursor: pointer;
+}
+div.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div.iconcontainer img{
+    margin-top: 20px;
+    width: 100px ;
+    height: 100px;
+}

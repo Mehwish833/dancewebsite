@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+      script(src='/static/script.js')
+
+block style 
+      style 
+            include ../static/style.css
+       
+block content
+    
+    section#introsection 
+        div Welcome to Mehr Dance Academy
+        div.small EAT SLEEP DANCE REPEAT
+    section#missionsection 
+          h2 OUR MISSION 
+          div.card
+              h4 All Levels
+              div.cardbox
+                 div.cardcontent
+                    p Classes for everyone from beginners to advanced.
+                 div.img
+                     img(src="../static/p1.png")
+          div.card
+               h4 100+ Classes
+               div.cardbox
+                 div.cardcontent
+                   p Learn all the dance styles and genres you can imagine.
+                 div.img
+                     img(src="../static/p2.png")
+          div.card
+              h4 Instant Access
+              div.cardbox
+                 div.cardcontent
+                   p Get instant unlimited access to all the classes inside.
+                 div.img
+                     img(src="../static/p3.png")
+          div.card
+               h4 Secure Purchase     
+               div.cardbox
+                 div.cardcontent
+                    p All payment information is encrypted and safe.
+                 div.img
+                      img(src="../static/p4 (2).png")
+
+    section#sponsersection    
+          h2 OUR SPONSERS
+          div.sponsers
+                 img(src="../static/sp1.png")
+                 img(src="../static/sp2.png")
+                 img(src="../static/sp3.png")

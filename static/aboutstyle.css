@@ -1,0 +1,39 @@
+section#body {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: center /cover no-repeat url('../static/aboutbg.jpg');
+    z-index: -1;
+    
+
+}
+.heading h1{
+    margin: 20px 0px;
+    padding: 10px 2px;
+    color: #660914;
+    /* text-shadow: 1px 1px 3px #ff0000, 2px 2px 2px #0d0d6c; */
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style: normal;
+   
+    
+}
+.para p{
+    color: black;
+    background-color: rgb(161, 159, 159);
+    border-radius: 5px;
+    
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 3px 2px;
+    font-size:large;
+    font-weight: light;
+    font-style: oblique;
+    z-index: -2;
+    
+}

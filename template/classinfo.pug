@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+    script(src='/static/script.js')
+
+block style
+    style
+        include ../static/style.css
+        include ../static/classinfo.css
+
+block content
+   div.body
+    div.classinfoheading
+        h1 Dance Class Information
+        p Join us for our exciting dance classes! Whether you're a beginner or an experienced dancer, we have something for everyone.
+
+    section.classes
+        h2 Our Classes
+        .class-list
+            .class-item
+                h3 Ballet
+                p A graceful dance form that emphasizes fluid movements and technique.
+                ul
+                    li Duration: 1 hour
+                    li Level: Beginner to Advanced
+                    li Instructor: Jane Doe
+                    li Schedule: Mondays and Wednesdays, 6 PM - 7 PM
+
+            .class-item
+                h3 Hip Hop
+                p A high-energy dance style that combines street dance and choreography.
+                ul
+                    li Duration: 1 hour
+                    li Level: All Levels
+                    li Instructor: John Smith
+                    li Schedule: Tuesdays and Thursdays, 5 PM - 6 PM
+
+            .class-item
+                h3 Contemporary
+                p A versatile dance style that blends elements of ballet and modern dance.
+                ul
+                    li Duration: 1.5 hours
+                    li Level: Intermediate to Advanced
+                    li Instructor: Emily Johnson
+                    li Schedule: Fridays, 7 PM - 8:30 PM
+
+            .class-item
+                h3 Salsa
+                p A lively, energetic dance that originated in Latin America.
+                ul
+                    li Duration: 1 hour
+                    li Level: Beginner
+                    li Instructor: Carlos Garcia
+                    li Schedule: Saturdays, 3 PM - 4 PM

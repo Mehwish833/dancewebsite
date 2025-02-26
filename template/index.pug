@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+          ul  
+              div#logo 
+                   img(src="../static/logo.png")
+                   p  MDA
+              li #[a(href="/") HOME] 
+              li #[a(href="/") SERVICES] 
+              li #[a(href="/") ABOUT ]
+              li #[a(href="/") CLASS INFO ]
+              li #[a(href="/contact") CONTACT US]
+    section#introsection 
+          div Welcome to Mehr Dance Academy
+          div.small EAT SLEEP DANCE REPEAT
+    section#missionsection   
+          h2 OUR MISSION 
+          div.card
+              h4 All Levels
+              div.cardbox
+                 div.cardcontent
+                    p Classes for everyone from beginners to advanced.
+                 div.img
+                     img(src="../static/p1.png")
+          div.card
+               h4 100+ Classes
+               div.cardbox
+                 div.cardcontent
+                   p Learn all the dance styles and genres you can imagine.
+                 div.img
+                     img(src="../static/p2.png")
+          div.card
+              h4 Instant Access
+              div.cardbox
+                 div.cardcontent
+                   p Get instant unlimited access to all the classes inside.
+                 div.img
+                     img(src="../static/p3.png")
+          div.card
+               h4 Secure Purchase     
+               div.cardbox
+                 div.cardcontent
+                    p All payment information is encrypted and safe.
+                 div.img
+                      img(src="../static/p4 (2).png")
+
+    section#sponsersection    
+          h2 OUR SPONSERS
+          div.sponsers
+                 img(src="../static/sp1.png")
+                 img(src="../static/sp2.png")
+                 img(src="../static/sp3.png")
+
+    footer#footersection 
+          |copyright @ 2025 mehrdanceacademy.com | All copyright reserved 
+    script
+      include ../static/script.js
